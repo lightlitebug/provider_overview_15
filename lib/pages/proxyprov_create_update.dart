@@ -38,7 +38,7 @@ class _ProxyProvCreateUpdateState extends State<ProxyProvCreateUpdate> {
         child: ProxyProvider0<Translations>(
           create: (_) => Translations(),
           update: (_, Translations? translations) {
-            translations!..update(counter);
+            translations!.update(counter);
             return translations;
           },
           child: Column(
